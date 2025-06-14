@@ -1,4 +1,4 @@
-AWS Continuous Integration Project
+# AWS Continuous Integration Project
 
 This project demonstrates a **Continuous Integration (CI)** setup using **AWS CodePipeline**, **CodeBuild**, and **GitHub** for a Python application. It automates building, testing, and deploying code changes from GitHub using AWS Developer Tools.
 
