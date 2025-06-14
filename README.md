@@ -2,7 +2,7 @@
 
 This project demonstrates a **Continuous Integration (CI)** setup using **AWS CodePipeline**, **CodeBuild**, and **GitHub** for a Python application. It automates building, testing, and deploying code changes from GitHub using AWS Developer Tools.
 
-1. Set Up GitHub Repository
+# 1. Set Up GitHub Repository
 
 To begin, create a GitHub repository for your Python application:
 
@@ -13,7 +13,7 @@ To begin, create a GitHub repository for your Python application:
 5. Initialize with a README (optional).
 6. Click **Create repository**.
 
-2. Create an AWS CodePipeline
+# 2. Create an AWS CodePipeline
 
 Follow these steps to set up AWS CodePipeline:
 
@@ -27,7 +27,7 @@ Follow these steps to set up AWS CodePipeline:
 8. Configure build settings: runtime, build commands, artifacts.
 9. Return to CodePipeline, finish the setup, and click **Create pipeline**.
 
-3. Configure AWS CodeBuild
+# 3. Configure AWS CodeBuild
 
 Set up CodeBuild to build and test your application:
 
@@ -40,7 +40,7 @@ Set up CodeBuild to build and test your application:
 7. Configure build artifacts.
 8. Click **Create build project**.
 
-4. Trigger the CI Process
+# 4. Trigger the CI Process
 
 To test your CI pipeline:
 
@@ -51,7 +51,7 @@ To test your CI pipeline:
 
 Once configured, CodePipeline automates everything—from pulling the latest code to building and deploying it, providing a streamlined CI experience.
 
-Technologies Used
+# Technologies Used
 
 - AWS CodePipeline
 - AWS CodeBuild
